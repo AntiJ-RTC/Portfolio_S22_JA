@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Slab:wght@100&display=swap');
+
+body{
+    background-color: #61666A;
+}
+#nav ul{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#nav li{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#nav a{
+    display: block;
+    padding: 10px;
+    top: 0;
+    position: relative;
+}
+.nav-Button{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #8D9399;
+    box-shadow: -2px 2px 2px #222222;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.15s, color 0.15s, margin 0.15s ease-in;
+}
+.nav-Button:hover{
+    background-color: #C7D1D9;
+    margin-left: 8px;
+    margin-right: 8px;
+}
