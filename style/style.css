@@ -2,6 +2,10 @@
 
 body{
     background-color: #61666A;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #nav ul{
     display: grid;
@@ -39,4 +43,29 @@ body{
     font-size: 1.6rem;
     text-align: center;
     margin: 30px;
+}
+
+#blogContainer{
+    color: white;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.blogs{
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid white;
+    box-shadow: -2px 2px 10px black;
+    background-color: rgb(97, 102, 106, 0.75);
+    height: 50%;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 75% auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.blogImages{
+    width: 100%;
+    background-color: white;
 }
