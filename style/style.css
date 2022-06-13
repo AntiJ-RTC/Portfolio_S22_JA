@@ -32,3 +32,11 @@ body{
     margin-left: 8px;
     margin-right: 8px;
 }
+
+#portfolioTitle{
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 30px;
+}
