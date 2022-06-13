@@ -52,14 +52,14 @@ p{
     margin: 30px;
 }
 
-#blogContainer{
+#container{
     color: lightgray;
     width: 80%;
     display: block;
     margin: 0 auto;
 }
 
-.blogs{
+.content{
     font-family: 'Roboto Slab', serif;
     border: 1px solid white;
     box-shadow: -2px 2px 2px black;
@@ -71,7 +71,7 @@ p{
     margin-bottom: 20px;
 }
 
-.blogImages{
+.images{
     width: 100%;
     background-color: white;
 }
