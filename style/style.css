@@ -12,7 +12,6 @@ h2, h4{
 }
 p{
     padding: 5px;
-    text-indent: 40px;
 }
 #nav ul{
     display: grid;
@@ -51,6 +50,45 @@ p{
     font-size: 1.6rem;
     text-align: center;
     margin: 30px;
+}
+
+#projectsTitle{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(34, 34, 34, 0.5);
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+    gap: 15px;
+}
+
+.projectBlock{
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: rgb(199, 209, 217, 0.35);
+    width: 300px;
+    height: 300px;
+}
+
+.projectImage{
+    width: 80%;
+}
+
+.projectLink{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
 }
 
 #container{
